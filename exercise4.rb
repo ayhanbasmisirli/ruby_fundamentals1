@@ -6,6 +6,8 @@ while number <= 100
     puts "Bit (number is #{number})"
   elsif number%5 == 0
     puts "Maker (number is #{number}) "
+  else
+    puts "#{number}"
   end 
   if (number%5  == 0)&&(number%3 == 0)
     puts "BitMaker (number is  #{number})"
